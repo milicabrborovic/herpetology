@@ -20,11 +20,10 @@ a {
     text-decoration: none;
 }
 h1{
-	
 	text-align:center;
 	font-family: 'Titillium Web';
 	font-size:40px;
-	padding:50px 0;
+	padding:30px 0;
 }
 .clearfix::after {
     content: "";
@@ -186,9 +185,9 @@ ul li:hover ul.dropdown{
 	background-size:cover;
 	position:relative;
 }
-.sastanak span a, .radionica span a, .sastanak1 span a,.radionica1 span a{
+.sastanak a, .radionica a, .sastanak1 a, .radionica1 a{
 	display:block;
-	height:300px;
+	height:100%;
 }
 .sastanak:hover, .sastanak1:hover, .radionica:hover, .radionica1:hover{
 	box-shadow: 10px -10px 5px rgba(135, 189, 114);	
@@ -209,7 +208,7 @@ ul li:hover ul.dropdown{
 	background-size:cover;
 	position:relative;
 }
-.naslov a h2{
+.naslov  h2{
 	position:absolute;
 	bottom:2%;
 	left:0;
@@ -219,7 +218,7 @@ ul li:hover ul.dropdown{
 	background: rgba(135, 189, 114, 0.7);
 	padding:2%;
 }
-.sastanak:hover .naslov a h2, .radionica:hover .naslov a h2, .sastanak1:hover .naslov a h2, .radionica1:hover .naslov a h2{
+.sastanak:hover .naslov h2, .radionica:hover .naslov h2, .sastanak1:hover .naslov h2, .radionica1:hover .naslov h2{
 	background:#fff;
 	color:rgba(135, 189, 114);
 	transition:1s;
@@ -284,7 +283,7 @@ footer p{
 	text-align:center;
 	font-family: 'Titillium Web';
 }
-footer h3 span{
+footer p span{
 	color:rgb(135, 214, 87);
 }
 /*end footer*/
